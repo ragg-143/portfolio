@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anurag's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/fd7174e6c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <h1><span>P</span>ortfolio</h1>
+
+        <ul id="sidemenu">
+          <li>
+            <a href="#header">Home</a>
+
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+
+          </li>
+          <li>
+            <a href="#projects">Experience</a>
+
+          </li>
+          <li>
+            <a href="#portfolio">Projects</a>
+
+          </li>
+          <li>
+            <a href="#contact">Contact </a>
+
+          </li>
+          <li>
+            <a href="https://drive.google.com/file/d/1k_j6kqyiLsxtuXS5rnuXixVrLZHpgeQx/view">Resume </a>
+
+          </li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+      </nav>
+
+      <div class="header-text">
+        <p>Software Developer</p>
+        <h1>Hi, I'm <span>Anurag Shirsekar</span></h1>
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <!-- <img src="images/myphoto.jpg" alt=""> -->
+        </div>
+        <div class="about-col-2">
+          <h1 class="title">About Me</h1>
+          <P>4th year B.E Computer Engineering student at Vivekanand Education Society Institute of Technology with an
+            excellent academic record and a keen interest and practical exposure in Web development, Data Science, and
+            Data Structures and Algorithms. I am person who likes to participate in Hackathons and Ideathons.</P>
+
+
+          <div class="tab-titles">
+            <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Education</p>
+            <p class="tab-links" onclick="opentab('education')">Achievements</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Technical Skills</span><br>Java, Python, C, SQL, HTML/CSS, React.js, Firebase, Next.js, Machine
+                Learning Algorithms,
+                Optical Character Recognition</li>
+              <li><span>Computer Engineering Construct</span><br>Operating Systems, Database Management System, Computer
+                Networks,
+                Software Engineering</li>
+              <li><span>Soft Skills</span><br>Communication, Teamwork, Problem-Solving, Leadership, Networking,
+                Time-Management</li>
+            </ul>
+          </div>
+
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Vivekanand Education Societys Institute of Technology</span><br>B.E in Computer Engineering,
+                Honors in Data Science (Avg C.G.P.A - 9.27) <br><br>Mumbai (2021-2025)</li>
+              <li><span>St.Xavier's Junior College</span><br>Higher Secondary (Grade of 96.50)<br><br>Navi Mumbai
+                (2019-2021)</li>
+              <li><span>St.Xavier's High School</span><br>Secondary School Certificate (Grade of 89.80)<br><br>Navi
+                Mumbai (2013-2019)</li>
+            </ul>
+          </div>
+
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Winner at Invictus Hackathon</li>
+              <li><span>Semi Finalist at TSEC Hacks</li>
+              <li><span>Top 5 in DMCE HACKS</li>
+              <li><span>Contributor at GirlScript Summer of Code</li>
+              <li><span>Contributor at Social Summer of Code</li>
+              <li><span>Won a Scholarship of INR 4,00,000 for excellence in HSC</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+
+    <div class="container">
+      <h1 class="title">My Experience</h1>
+      <div class="projects-list">
+        <div>
+          <i class="fa-solid fa-school"></i>
+          <h2>Student Summer Intern</h2>
+          <p>Vivekanand Education Societys Institute of Technology (May 2024- Present)</p><br>
+          <p>Working on non-invasive early detection of Down Syndrome using imaging and machine learning techniques</p>
+
+
+        </div>
+        <div>
+          <i class="fa-solid fa-business-time"></i>
+          <h2>Business Development Intern</h2>
+          <p>JK Shah Classes (June 2024- Present)</p><br>
+          <p>Analyzing market data for growth opportunities, strategic planning and creating reports and presentations.
+          </p>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-book"></i>
+          <h2>Research and Promotion Intern</h2>
+          <p>Evepapers (Nov 2023- Jan 2024)</p><br>
+          <p>Researched market trends and developing strategies to boost brand awareness and customer engagement.</p>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-money-check-dollar"></i>
+          <h2>Junior Treasurer</h2>
+          <p>Computer Society of India (Aug 2023- Mar 2024)</p><br>
+          <p>Handling all the things associated with funds and financial record keeping and maintenance.</p>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-laptop"></i>
+          <h2>Junior Public Relations Officer</h2>
+          <p>Computer Society of India (Jan 2023- Aug 2024)</p><br>
+          <p>Acquired expertise in graphic design and networking, leading events and workshops with 200+ participants.
+          </p>
+
+        </div>
+        <div>
+          <i class="fa-solid fa-chart-simple"></i>
+          <h2>Digital Marketing Manager and SEO Officer </h2>
+          <p>Ayuzera Pvt Ltd (June 2024-Present)</p><br>
+          <p>Working on SEO strategies and Digital Marketing of Seabuckthon products of a health tech startup</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="title">
+        My Projects
+      </h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/chatlytics.png" alt="">
+          <div class="layer">
+            <h3>Chatlytics</h3>
+            <p>A powerful WhatsApp chat analyzer offering detailed message and word frequency analysis, along with
+              interactive
+              visualizations of chat activity.
+              <br><br> Gain insights into chat patterns: active times, topics, top contacts, and group dynamics for
+              personal
+              and
+              professional use.
+            </p>
+            <a href="https://chatlytics-1awa.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/prointerview.png" alt="">
+          <div class="layer">
+            <h3>Pro-Interview</h3>
+            <p>An AI-powered mock interview platform that offers secure login, easy setup, and personalized
+              feedback.<br><br>Get ratings and feedback after each interview, and track your progress by reviewing or
+              retaking previous interviews.</p>
+            <a href="https://prointerview-ai-mock-interview.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/unitywell.png" alt="">
+          <div class="layer">
+            <h3>Unity-Well</h3>
+            <p>Campus Health and Wellness Platform: The project aims to create a platform integrating mental health
+              tools,
+              fitness challenges, and community support with games, promoting holistic well-being for students.</p>
+            <a href="https://github.com/ragg-143"><i class="fas fa-external-link-alt"></i></a>
+
+          </div>
+        </div>
+      </div>
+      <!-- <a href="#"class="btm">See More</a> -->
+    </div>
+
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>anuragshirsekar7@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+91 8291529650</p>
+          <div class="social-icons">
+
+            <a href="https://www.linkedin.com/in/anurag-shirsekar-b77192247/"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/_.anuragg94/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/ragg-143"><i class="fa-brands fa-github"></i></i></a>
+            <!-- <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> -->
+          </div>
+
+          <a href="https://drive.google.com/file/d/1k_j6kqyiLsxtuXS5rnuXixVrLZHpgeQx/view" download
+            class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit " class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © Anurag.</p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+
+    }
+
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+
+    }
+
+  </script>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzyWGJuY9p73n-ZkuE_Sxhp7S0DVwDCLhMCLmlc6X6ncpFTGhdmWkrGt6DOukE3y1Sdbg/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 3000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
