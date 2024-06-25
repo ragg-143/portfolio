@@ -511,8 +511,12 @@ nav .fa-solid {
     margin-bottom: 20px;
   }
   .about-col-2 P {
-    font-size: 14px
+    font-size: 14px;
   }
 
-  ;
+  .tab-titles .tab-links {
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  
 }
