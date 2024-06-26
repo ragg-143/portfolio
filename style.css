@@ -27,6 +27,28 @@ body {
 
 }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-text h1,
+.header-text p {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(60, end) infinite;
+  width: 0;
+}
+
+.header-text p {
+  animation-delay: 0s; /* Start immediately for simultaneous typing */
+}
 
 
 .container {
@@ -518,5 +540,8 @@ nav .fa-solid {
     margin-right: 15px;
     font-size: 15px;
   }
-  
+   .header-text h1,
+  .header-text p {
+    animation: typing 4s steps(40, end) infinite;
+  }
 }
